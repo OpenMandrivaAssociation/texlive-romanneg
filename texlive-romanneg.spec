@@ -44,6 +44,7 @@ to be negative when roman pagenumbering is in effect.
 %{_texmfdistdir}/tex/latex/romanneg/romanneg.sty
 %doc %{_texmfdistdir}/doc/latex/romanneg/romanneg.ltx
 %doc %{_texmfdistdir}/doc/latex/romanneg/romanneg.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +55,5 @@ to be negative when roman pagenumbering is in effect.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
