@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-romanneg
 Version:	20101013
-Release:	6
+Release:	7
 Summary:	Roman page numbers negative
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/romanneg
