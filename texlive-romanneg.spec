@@ -1,6 +1,6 @@
 Name:		texlive-romanneg
 Version:	20087
-Release:	1
+Release:	2
 Summary:	Roman page numbers negative
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/romanneg
