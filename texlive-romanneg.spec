@@ -3,7 +3,7 @@ Version:	20087
 Release:	2
 Summary:	Roman page numbers negative
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/romanneg
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/romanneg
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/romanneg.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/romanneg.doc.r%{version}.tar.xz
